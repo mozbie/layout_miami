@@ -365,10 +365,7 @@ ul {
     padding-left: 20px; }
   .best li {
     font-size: 18px;
-    text-align: left; }
-  .best__text {
-    margin-top: -8px;
-    margin-right: -7%; } }
+    text-align: left; } }
 
 @media only screen and (max-width: 740px) {
   .testis {
@@ -392,22 +389,33 @@ ul {
     margin-bottom: 10px;
     text-align: center;
     font-size: 25px; }
-  .header__logo {
-    left: 60px; }
   .header {
-    top: 62px; }
-  .header__phone {
-    display: none; } }
+    top: 30px; }
+    .header__logo {
+      left: 0;
+      -webkit-transform: none;
+              transform: none;
+      top: 0; }
+      .header__logo .icon {
+        font-size: 50px; }
+    .header__phone {
+      float: right;
+      margin-top: 20px; }
+    .header__call {
+      margin-top: 10px;
+      clear: right; } }
 
 @media only screen and (max-width: 600px) {
-  .section__title {
-    position: absolute;
-    top: -40px;
-    left: 50%;
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
-    font-size: 30px;
-    text-align: center;
-    line-height: 1; } }
+  .section {
+    padding: 70px 0px; }
+    .section__title {
+      position: absolute;
+      top: -40px;
+      left: 50%;
+      -webkit-transform: translate(-50%, 0);
+              transform: translate(-50%, 0);
+      font-size: 30px;
+      text-align: center;
+      line-height: 1; } }
 
 /*# sourceMappingURL=main.css.map */
