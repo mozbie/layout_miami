@@ -352,17 +352,6 @@ ul {
   .container {
     margin: 0 20px; } }
 
-@media only screen and (max-width: 600px) {
-  .section__title {
-    position: relative;
-    top: 0;
-    left: 0;
-    -webkit-transform: none;
-            transform: none;
-    margin-bottom: 40px;
-    font-size: 30px;
-    text-align: center; } }
-
 @media only screen and (max-width: 960px) {
   .apart__photo {
     height: 150px; }
@@ -376,9 +365,7 @@ ul {
     padding-left: 20px; }
   .best li {
     font-size: 18px;
-    text-align: left; } }
-
-@media only screen and (min-width: 960px) {
+    text-align: left; }
   .best__text {
     margin-top: -8px;
     margin-right: -7%; } }
@@ -411,5 +398,16 @@ ul {
     top: 62px; }
   .header__phone {
     display: none; } }
+
+@media only screen and (max-width: 600px) {
+  .section__title {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    font-size: 30px;
+    text-align: center;
+    line-height: 1; } }
 
 /*# sourceMappingURL=main.css.map */
